@@ -202,6 +202,8 @@ a.bg-info:focus, a.bg-info:hover {background-color: #0e6a99 !important;}
 a.bg-pink:focus, a.bg-pink:hover {background-color: #c11650 !important;}
 .bg-form-exchange {background-color: #128ac8 !important;}
 a.bg-form-exchange:focus, a.bg-form-exchange:hover {background-color: #0e6a99 !important;}
+.bg-business {background-color: #e62466 !important;}
+a.bg-business:focus, a.bg-business:hover {background-color: #c11650 !important;}
 .bg-laravel-market {background-color: #ee1d24 !important;}
 a.bg-laravel-market:focus, a.bg-laravel-market:hover {background-color: #c90f15 !important;}
 .bg-white, .btn-white {background-color: #fff !important;}
