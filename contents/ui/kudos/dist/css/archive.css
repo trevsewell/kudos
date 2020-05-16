@@ -291,7 +291,13 @@ header {z-index: 9;}
 footer hr {border-top: 2px solid hsla(0,0%,100%,.1);}
 footer .intro {line-height: 1.72;}
 section.newsletter p {max-width: 800px;}
-@media (max-width:991.98px) {body header nav {display: none;}}
+@media (max-width:991.98px) {body header nav {display: none;}
+	body.open {overflow: hidden;}
+	body.open header {position: static;}
+	body.open header nav {text-align: center;display: block;position: absolute;top: 0;right: 0;bottom: 0;left: 0;background: #ee1d24;z-index: 999;overflow-y: auto;}
+	body.open header nav ul li {display: block !important;}
+	body.open header nav ul li a {color: #fff;}
+	body.open header .toggle {z-index: 1000;color: #fff;position: absolute;top: 1rem;right: 1rem;bottom: auto;left: auto;}}
 @media (min-width:992px) {header nav {position: relative;}
 	header nav ul li a {color: #222;}}
 aside ul:before {content: "Filter by";}
