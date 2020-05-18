@@ -291,10 +291,10 @@ body .content blockquote p {line-height: 1.4;font-style: italic;}
 body .content blockquote p:before {content: "“";font-family: Roboto;font-size: 3rem;position: absolute;top: -.5rem;right: auto;bottom: auto;left: 0;}
 body .content blockquote cite {font-size: 1rem;}
 body .content blockquote cite:before {content: "-";}
-@font-face {font-family: Open Sans;font-style: normal;font-weight: 400;src: local("Open Sans Regular"),local("OpenSans-Regular"),url("/fonts/open-sans-v17-latin-regular.woff2") format("woff2"),url("/fonts/open-sans-v17-latin-regular.woff") format("woff");}
-@font-face {font-family: Open Sans;font-style: italic;font-weight: 400;src: local("Open Sans Italic"),local("OpenSans-Italic"),url("/fonts/open-sans-v17-latin-italic.woff2") format("woff2"),url("/fonts/open-sans-v17-latin-italic.woff") format("woff");}
-@font-face {font-family: Open Sans;font-style: normal;font-weight: 700;src: local("Open Sans Bold"),local("OpenSans-Bold"),url("/fonts/open-sans-v17-latin-700.woff2") format("woff2"),url("/fonts/open-sans-v17-latin-700.woff") format("woff");}
-@font-face {font-family: Roboto;font-style: normal;font-weight: 900;src: local("Roboto Black"),local("Roboto-Black"),url("/fonts/roboto-v20-latin-900.woff2") format("woff2"),url("/fonts/roboto-v20-latin-900.woff") format("woff");}
+@font-face {font-family: Open Sans;font-style: normal;font-weight: 400;font-display: swap;src: local("Open Sans Regular"),local("OpenSans-Regular"),url("/fonts/open-sans-v17-latin-regular.woff2") format("woff2"),url("/fonts/open-sans-v17-latin-regular.woff") format("woff");}
+@font-face {font-family: Open Sans;font-style: italic;font-weight: 400;font-display: swap;src: local("Open Sans Italic"),local("OpenSans-Italic"),url("/fonts/open-sans-v17-latin-italic.woff2") format("woff2"),url("/fonts/open-sans-v17-latin-italic.woff") format("woff");}
+@font-face {font-family: Open Sans;font-style: normal;font-weight: 700;font-display: swap;src: local("Open Sans Bold"),local("OpenSans-Bold"),url("/fonts/open-sans-v17-latin-700.woff2") format("woff2"),url("/fonts/open-sans-v17-latin-700.woff") format("woff");}
+@font-face {font-family: Roboto;font-style: normal;font-weight: 900;font-display: swap;src: local("Roboto Black"),local("Roboto-Black"),url("/fonts/roboto-v20-latin-900.woff2") format("woff2"),url("/fonts/roboto-v20-latin-900.woff") format("woff");}
 header {z-index: 9;}
 footer hr {border-top: 2px solid hsla(0,0%,100%,.1);}
 footer .intro {line-height: 1.72;}
