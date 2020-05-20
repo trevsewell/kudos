@@ -1,4 +1,4 @@
-:root {--blue: #2e8bc0;--indigo: #6610f2;--purple: #b19cd9;--pink: #ff6b8e;--pink: #ff6961;--red: #ff6961;--orange: #ffb347;--yellow: #ffc107;--green: #4a525a;--teal: #20c997;--cyan: #17a2b8;--white: #fff;--gray-dark: #222;--primary: #ff6961;--secondary: #6c757d;--success: #4a525a;--info: #2e8bc0;--warning: #ffb347;--danger: #ff6961;--light: #e9ecef;--dark: #222;--dark-orange: #ae4500;--gray: #495057;--black: #000;--form-exchange: #2e8bc0;--dev-ops: #ffb347;--hosting-and-dev-ops: #ffb347;--design: #2e8bc0;--design-ui-ux: #2e8bc0;--development: #ff6961;--business: #ff6961;--web-development: #ff6961;--app-development: #ff6961;--laravel-market: #ff6961;--marketing: #4a525a;--seo: #4a525a;--breakpoint-xs: 0;--breakpoint-sm: 576px;--breakpoint-md: 768px;--breakpoint-lg: 992px;--breakpoint-xl: 1200px;--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
+:root {--blue: #2e8bc0;--indigo: #6610f2;--purple: #b19cd9;--red: #ff6961;--orange: #ffb347;--yellow: #ffc107;--green: #4a525a;--teal: #20c997;--cyan: #17a2b8;--white: #fff;--gray-dark: #222;--primary: #ff6961;--secondary: #6c757d;--success: #4a525a;--info: #2e8bc0;--warning: #ffb347;--danger: #ff6961;--light: #e9ecef;--dark: #222;--dark-orange: #ae4500;--gray: #495057;--black: #000;--pink: #ff6961;--form-exchange: #2e8bc0;--dev-ops: #ffb347;--hosting-and-dev-ops: #ffb347;--design: #2e8bc0;--design-ui-ux: #2e8bc0;--development: #ff6961;--business: #ff6961;--web-development: #ff6961;--app-development: #ff6961;--laravel-market: #ff6961;--marketing: #4a525a;--seo: #4a525a;--breakpoint-xs: 0;--breakpoint-sm: 576px;--breakpoint-md: 768px;--breakpoint-lg: 992px;--breakpoint-xl: 1200px;--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
 *, :after, :before {box-sizing: border-box;}
 html {font-family: sans-serif;line-height: 1.15;-webkit-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0,0,0,0);}
 footer, header, main, nav, section {display: block;}
@@ -183,6 +183,8 @@ small {font-size: 80%;font-weight: 400;}
 .bg-danger {background-color: #ff6961 !important;}
 .bg-light {background-color: #e9ecef !important;}
 .bg-dark {background-color: #222 !important;}
+aside ul li.current-cat a {background-color: #495057 !important;}
+aside ul li.current-cat a:focus, aside ul li.current-cat a:hover {background-color: #32373b !important;}
 .bg-white {background-color: #fff !important;}
 .btn, form input.form-control {border: 0 !important;}
 .rounded {border-radius: .2rem !important;}
@@ -251,7 +253,7 @@ form input.form-control {padding-left: .75rem !important;}
 	.ml-lg-auto {margin-left: auto !important;}}
 .text-center {text-align: center !important;}
 .font-weight-bold {font-weight: 700 !important;}
-.text-white {color: #fff !important;}
+.text-white, aside ul li.current-cat a {color: #fff !important;}
 .text-dark {color: #222 !important;}
 a.text-dark:focus, a.text-dark:hover {color: #000 !important;}
 .text-black-50 {color: rgba(0,0,0,.5) !important;}

@@ -1,4 +1,4 @@
-:root {--blue: #2e8bc0;--indigo: #6610f2;--purple: #b19cd9;--pink: #ff6b8e;--pink: #ff6961;--red: #ff6961;--orange: #ffb347;--yellow: #ffc107;--green: #4a525a;--teal: #20c997;--cyan: #17a2b8;--white: #fff;--gray-dark: #222;--primary: #ff6961;--secondary: #6c757d;--success: #4a525a;--info: #2e8bc0;--warning: #ffb347;--danger: #ff6961;--light: #e9ecef;--dark: #222;--dark-orange: #ae4500;--gray: #495057;--black: #000;--form-exchange: #2e8bc0;--dev-ops: #ffb347;--hosting-and-dev-ops: #ffb347;--design: #2e8bc0;--design-ui-ux: #2e8bc0;--development: #ff6961;--business: #ff6961;--web-development: #ff6961;--app-development: #ff6961;--laravel-market: #ff6961;--marketing: #4a525a;--seo: #4a525a;--breakpoint-xs: 0;--breakpoint-sm: 576px;--breakpoint-md: 768px;--breakpoint-lg: 992px;--breakpoint-xl: 1200px;--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
+:root {--blue: #2e8bc0;--indigo: #6610f2;--purple: #b19cd9;--red: #ff6961;--orange: #ffb347;--yellow: #ffc107;--green: #4a525a;--teal: #20c997;--cyan: #17a2b8;--white: #fff;--gray-dark: #222;--primary: #ff6961;--secondary: #6c757d;--success: #4a525a;--info: #2e8bc0;--warning: #ffb347;--danger: #ff6961;--light: #e9ecef;--dark: #222;--dark-orange: #ae4500;--gray: #495057;--black: #000;--pink: #ff6961;--form-exchange: #2e8bc0;--dev-ops: #ffb347;--hosting-and-dev-ops: #ffb347;--design: #2e8bc0;--design-ui-ux: #2e8bc0;--development: #ff6961;--business: #ff6961;--web-development: #ff6961;--app-development: #ff6961;--laravel-market: #ff6961;--marketing: #4a525a;--seo: #4a525a;--breakpoint-xs: 0;--breakpoint-sm: 576px;--breakpoint-md: 768px;--breakpoint-lg: 992px;--breakpoint-xl: 1200px;--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
 *, :after, :before {box-sizing: border-box;}
 html {font-family: sans-serif;line-height: 1.15;-webkit-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0,0,0,0);}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {display: block;}
@@ -85,7 +85,7 @@ hr {margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 1px solid rgba(0,
 .figure {display: inline-block;}
 .figure-img {margin-bottom: .5rem;line-height: 1;}
 .figure-caption {font-size: 90%;color: #6c757d;}
-code {font-size: 87.5%;color: #ff6b8e;word-wrap: break-word;}
+code {font-size: 87.5%;color: #ff6961;word-wrap: break-word;}
 a>code {color: inherit;}
 kbd {padding: .2rem .4rem;font-size: 87.5%;color: #fff;background-color: #212529;border-radius: .2rem;}
 kbd kbd {padding: 0;font-size: 100%;font-weight: 700;}
@@ -1546,25 +1546,25 @@ a.close.disabled {pointer-events: none;}
 a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {background-color: #ff392e !important;}
 .bg-secondary {background-color: #6c757d !important;}
 a.bg-secondary:focus, a.bg-secondary:hover, button.bg-secondary:focus, button.bg-secondary:hover {background-color: #545b62 !important;}
-.bg-success, aside ul li:last-of-type a {background-color: #4a525a !important;}
-a.bg-success:focus, a.bg-success:hover, aside ul li:last-of-type a:focus, aside ul li:last-of-type a:hover, button.bg-success:focus, button.bg-success:hover {background-color: #33393e !important;}
-.bg-info, aside ul li:nth-of-type(3) a {background-color: #2e8bc0 !important;}
-a.bg-info:focus, a.bg-info:hover, aside ul li:nth-of-type(3) a:focus, aside ul li:nth-of-type(3) a:hover, button.bg-info:focus, button.bg-info:hover {background-color: #246d97 !important;}
-.bg-warning, aside ul li:nth-of-type(4) a {background-color: #ffb347 !important;}
-a.bg-warning:focus, a.bg-warning:hover, aside ul li:nth-of-type(4) a:focus, aside ul li:nth-of-type(4) a:hover, button.bg-warning:focus, button.bg-warning:hover {background-color: #ff9e14 !important;}
-.bg-danger, aside ul li:nth-of-type(2) a, body .content blockquote {background-color: #ff6961 !important;}
-a.bg-danger:focus, a.bg-danger:hover, aside ul li:nth-of-type(2) a:focus, aside ul li:nth-of-type(2) a:hover, button.bg-danger:focus, button.bg-danger:hover {background-color: #ff392e !important;}
-.bg-light, body .content figure figcaption {background-color: #e9ecef !important;}
-a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover {background-color: #cbd3da !important;}
+.bg-success {background-color: #4a525a !important;}
+a.bg-success:focus, a.bg-success:hover, button.bg-success:focus, button.bg-success:hover {background-color: #33393e !important;}
+.bg-info {background-color: #2e8bc0 !important;}
+a.bg-info:focus, a.bg-info:hover, button.bg-info:focus, button.bg-info:hover {background-color: #246d97 !important;}
+.bg-warning {background-color: #ffb347 !important;}
+a.bg-warning:focus, a.bg-warning:hover, button.bg-warning:focus, button.bg-warning:hover {background-color: #ff9e14 !important;}
+.bg-danger, body .content blockquote {background-color: #ff6961 !important;}
+a.bg-danger:focus, a.bg-danger:hover, button.bg-danger:focus, button.bg-danger:hover {background-color: #ff392e !important;}
+.bg-light, aside ul li a, body .content figure figcaption {background-color: #e9ecef !important;}
+a.bg-light:focus, a.bg-light:hover, aside ul li a:focus, aside ul li a:hover, button.bg-light:focus, button.bg-light:hover {background-color: #cbd3da !important;}
 .bg-dark, body .content .wp-block-code {background-color: #222 !important;}
 a.bg-dark:focus, a.bg-dark:hover, body .content a.wp-block-code:focus, body .content a.wp-block-code:hover, body .content button.wp-block-code:focus, body .content button.wp-block-code:hover, button.bg-dark:focus, button.bg-dark:hover {background-color: #090909 !important;}
 .bg-dark-orange {background-color: #ae4500 !important;}
 a.bg-dark-orange:focus, a.bg-dark-orange:hover, button.bg-dark-orange:focus, button.bg-dark-orange:hover {background-color: #7b3100 !important;}
-.bg-gray {background-color: #495057 !important;}
-a.bg-gray:focus, a.bg-gray:hover, button.bg-gray:focus, button.bg-gray:hover {background-color: #32373b !important;}
+.bg-gray, aside ul li.current-cat a {background-color: #495057 !important;}
+a.bg-gray:focus, a.bg-gray:hover, aside ul li.current-cat a:focus, aside ul li.current-cat a:hover, button.bg-gray:focus, button.bg-gray:hover {background-color: #32373b !important;}
 .bg-black, a.bg-black:focus, a.bg-black:hover, button.bg-black:focus, button.bg-black:hover {background-color: #000 !important;}
-.bg-pink, aside ul li:first-of-type a {background-color: #ff6961 !important;}
-a.bg-pink:focus, a.bg-pink:hover, aside ul li:first-of-type a:focus, aside ul li:first-of-type a:hover, button.bg-pink:focus, button.bg-pink:hover {background-color: #ff392e !important;}
+.bg-pink {background-color: #ff6961 !important;}
+a.bg-pink:focus, a.bg-pink:hover, button.bg-pink:focus, button.bg-pink:hover {background-color: #ff392e !important;}
 .bg-form-exchange {background-color: #2e8bc0 !important;}
 a.bg-form-exchange:focus, a.bg-form-exchange:hover, button.bg-form-exchange:focus, button.bg-form-exchange:hover {background-color: #246d97 !important;}
 .bg-dev-ops {background-color: #ffb347 !important;}
@@ -3663,7 +3663,7 @@ a.bg-seo:focus, a.bg-seo:hover, button.bg-seo:focus, button.bg-seo:hover {backgr
 .font-weight-bold, aside ul:before, aside ul li a, body .content figure figcaption {font-weight: 700 !important;}
 .font-weight-bolder {font-weight: bolder !important;}
 .font-italic, body .content blockquote p {font-style: italic !important;}
-.text-white, aside ul li a, body .content .wp-block-code, body .content blockquote {color: #fff !important;}
+.text-white, aside ul li.current-cat a, body .content .wp-block-code, body .content blockquote {color: #fff !important;}
 .text-primary {color: #ff6961 !important;}
 a.text-primary:focus, a.text-primary:hover {color: #ff2015 !important;}
 .text-secondary {color: #6c757d !important;}
@@ -3678,8 +3678,8 @@ a.text-warning:focus, a.text-warning:hover {color: #fa9200 !important;}
 a.text-danger:focus, a.text-danger:hover {color: #ff2015 !important;}
 .text-light {color: #e9ecef !important;}
 a.text-light:focus, a.text-light:hover {color: #bdc6cf !important;}
-.text-dark {color: #222 !important;}
-a.text-dark:focus, a.text-dark:hover {color: #000 !important;}
+.text-dark, aside ul li a {color: #222 !important;}
+a.text-dark:focus, a.text-dark:hover, aside ul li a:focus, aside ul li a:hover {color: #000 !important;}
 .text-dark-orange {color: #ae4500 !important;}
 a.text-dark-orange:focus, a.text-dark-orange:hover {color: #622700 !important;}
 .text-gray {color: #495057 !important;}
@@ -3777,12 +3777,6 @@ section.newsletter p {max-width: 800px;}
 @media (min-width:992px) {header nav {position: relative;}
 	header nav ul li a {color: #222;}}
 aside ul:before {content: "Filter by";}
-aside ul li.current-cat a:after {content: "";height: 0;width: 0;border-left: .5rem solid transparent;border-right: .5rem solid transparent;position: absolute;top: 100%;right: 50%;bottom: auto;left: auto;transform: translateX(50%);}
-aside ul li.current-cat:first-of-type a:after {border-top: .5rem solid #ff6b8e;}
-aside ul li.current-cat:nth-of-type(2) a:after {border-top: .5rem solid #ff6961;}
-aside ul li.current-cat:nth-of-type(3) a:after {border-top: .5rem solid #2e8bc0;}
-aside ul li.current-cat:nth-of-type(4) a:after {border-top: .5rem solid #ffb347;}
-aside ul li.current-cat:last-of-type a:after {border-top: .5rem solid #4a525a;}
 form input {font-family: Open Sans;}
 form input.form-control {font-family: Roboto;font-size: 1rem;height: auto;}
 form input.form-control-square {border-radius: 0;}
