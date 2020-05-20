@@ -3791,6 +3791,6 @@ form input.form-control-square {border-radius: 0;}
 .screen {border: 1.5rem solid #222;}
 .highlight {transition: all .1s ease 0;top: 0;}
 .highlight:hover {top: -.5rem;}
-.hero .container {background: transparent url("/wp-content/themes/kudos/img/hero4.svg") no-repeat 100% 0;background-size: contain !important;}
-.hero .container:after {content: "";position: absolute;top: 0;right: auto;bottom: 0;left: 100%;width: 500px;background: #dde2e6;}
+@media (min-width:992px) {.hero .container {background: transparent url("/wp-content/themes/kudos/img/hero4.svg") no-repeat 100% 0;background-size: contain !important;}
+	.hero .container:after {content: "";position: absolute;top: 0;right: auto;bottom: 0;left: 100%;width: 500px;background: #dde2e6;}}
 article.latest {bottom: 0;transform: translateY(50%);}

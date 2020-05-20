@@ -50,7 +50,7 @@ hr {margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 1px solid rgba(0,
 @media (min-width:992px) {.container {max-width: 960px;}}
 @media (min-width:1200px) {.container {max-width: 1140px;}}
 .row {display: flex;flex-wrap: wrap;margin-right: -1rem;margin-left: -1rem;}
-.col-6, .col-lg-2, .col-lg-3, .col-lg-4, .col-md-6 {position: relative;width: 100%;padding-right: 1rem;padding-left: 1rem;}
+.col-6, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-6, .col-md-6 {position: relative;width: 100%;padding-right: 1rem;padding-left: 1rem;}
 .col-6 {flex: 0 0 50%;max-width: 50%;}
 .order-1 {order: 1;}
 .order-2 {order: 2;}
@@ -58,6 +58,7 @@ hr {margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 1px solid rgba(0,
 @media (min-width:992px) {.col-lg-2 {flex: 0 0 16.6666666667%;max-width: 16.6666666667%;}
 	.col-lg-3 {flex: 0 0 25%;max-width: 25%;}
 	.col-lg-4 {flex: 0 0 33.3333333333%;max-width: 33.3333333333%;}
+	.col-lg-6 {flex: 0 0 50%;max-width: 50%;}
 	.offset-lg-3 {margin-left: 25%;}}
 .form-control {display: block;width: 100%;height: calc(1.5em + .75rem + 2px);padding: .375rem .75rem;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box;border: 1px solid #ced4da;border-radius: .2rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
 @media (prefers-reduced-motion:reduce) {.form-control {transition: none;}}
@@ -213,10 +214,6 @@ a.bg-laravel-market:focus, a.bg-laravel-market:hover {background-color: #ff392e 
 @media (min-width:992px) {.d-lg-none {display: none !important;}
 	.d-lg-block {display: block !important;}
 	.d-lg-flex {display: flex !important;}}
-.embed-responsive {position: relative;display: block;width: 100%;padding: 0;overflow: hidden;}
-.embed-responsive:before {display: block;content: "";}
-.embed-responsive .embed-responsive-item {position: absolute;top: 0;bottom: 0;left: 0;width: 100%;height: 100%;border: 0;}
-.embed-responsive-16by9:before {padding-top: 56.25%;}
 .flex-column {flex-direction: column !important;}
 .justify-content-center {justify-content: center !important;}
 .align-items-center {align-items: center !important;}
@@ -268,7 +265,7 @@ form input.form-control {padding-left: .75rem !important;}
 	.p-md-0 {padding: 0 !important;}
 	.px-md-32 {padding-right: 2rem !important;}
 	.px-md-32 {padding-left: 2rem !important;}
-	.pt-md-64, .py-md-64 {padding-top: 4rem !important;}
+	.py-md-64 {padding-top: 4rem !important;}
 	.py-md-64 {padding-bottom: 4rem !important;}
 	.ml-md-auto {margin-left: auto !important;}}
 @media (min-width:992px) {.mt-lg-0 {margin-top: 0 !important;}
@@ -286,14 +283,16 @@ form input.form-control {padding-left: .75rem !important;}
 	.p-lg-32 {padding: 2rem !important;}
 	.py-lg-48 {padding-top: 3rem !important;}
 	.py-lg-48 {padding-bottom: 3rem !important;}
-	.pt-lg-96, .py-lg-96 {padding-top: 6rem !important;}
+	.pt-lg-64 {padding-top: 4rem !important;}
+	.py-lg-96 {padding-top: 6rem !important;}
 	.py-lg-96 {padding-bottom: 6rem !important;}
 	.py-lg-128 {padding-top: 8rem !important;}
 	.py-lg-128 {padding-bottom: 8rem !important;}
 	.pb-lg-160 {padding-bottom: 10rem !important;}
 	.ml-lg-auto {margin-left: auto !important;}}
 @media (min-width:1200px) {.pr-xl-48 {padding-right: 3rem !important;}
-	.pl-xl-48 {padding-left: 3rem !important;}}
+	.pl-xl-48 {padding-left: 3rem !important;}
+	.pt-xl-96 {padding-top: 6rem !important;}}
 .text-center {text-align: center !important;}
 .font-weight-bold {font-weight: 700 !important;}
 .text-white {color: #fff !important;}
@@ -347,6 +346,6 @@ form input.form-control-square {border-radius: 0;}
 .screen {border: 1.5rem solid #222;}
 .highlight {transition: all .1s ease 0;top: 0;}
 .highlight:hover {top: -.5rem;}
-.hero .container {background: transparent url("/wp-content/themes/kudos/img/hero4.svg") no-repeat 100% 0;background-size: contain !important;}
-.hero .container:after {content: "";position: absolute;top: 0;right: auto;bottom: 0;left: 100%;width: 500px;background: #dde2e6;}
+@media (min-width:992px) {.hero .container {background: transparent url("/wp-content/themes/kudos/img/hero4.svg") no-repeat 100% 0;background-size: contain !important;}
+	.hero .container:after {content: "";position: absolute;top: 0;right: auto;bottom: 0;left: 100%;width: 500px;background: #dde2e6;}}
 article.latest {bottom: 0;transform: translateY(50%);}
