@@ -14,9 +14,12 @@
 	</url>
 	<url>
 		<loc>https://kudos.agency/blog-example/</loc>
-		<lastmod>2020-05-27T09:43:24+00:00</lastmod>
+		<lastmod>2020-05-27T09:46:35+00:00</lastmod>
 		<image:image>
 			<image:loc>https://kudos.agency/contents/uploads/2020/05/altitude-clouds-cold-933054-2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://kudos.agency/contents/uploads/2020/05/altitude-clouds-cold-933054.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
